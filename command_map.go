@@ -6,7 +6,7 @@ import (
 )
 
 func commandMapf(cfg *config) error {
-	locationsResp, err := cfg.pokeapiClient.ListLocations(&cfg.nextLocationsURL)
+	locationsResp, err := cfg.pokeapiClient.ListLocations(cfg.nextLocationsURL)
 	if err != nil {
 		return err
 	}

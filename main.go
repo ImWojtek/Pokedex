@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Pokedex GO/internal/pokeapi"
 	"time"
+
+	"github.com/ImWojtek/Pokedex/internal/pokeapi"
 )
 
 func main() {
